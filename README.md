@@ -6,10 +6,10 @@
 docker run -it -v $(pwd)/app:/app -w /app swipl
 # in repl, run the following to load the script.
 # you can use either of consult and [] notation.
-consult('test.pro').
-['test.pro'].
+consult('knowledge_base_1.pro').
+['knowledge_base_1.pro'].
 # Check if it's loaded.
-dog(rover).   # Should output "true."
+studies(charlie, What).   # Should output "What = csc135."
 # Import module. Maybe equivalent to ":- use_module(library(clpfd))." in .pro file.
 [library(clpfd)].
 ```
