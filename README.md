@@ -78,12 +78,13 @@ functor   |     |
   - **Variable**
     - starts with an upper-case letter or an underscore character.
   - **Complex term(=structure)**
-    - 
+    - built "out of a functor followed by a sequence of arguments"\[6]
+    - e.g., foo(a). bar(b,c). parent(X). parent(X,Y).
 - **Arity**
   - the number of arguments that a complex term has.\[6]
   - e.g., 
-    - woman(mia) is a complex term of arity 1 \[6]
-    - loves(vincent,mia) is a complex term of arity 2 \[6]
+    - woman(mia) is a complex term of arity 1. Expressed as woman/1 often. \[6]
+    - loves(vincent,mia) is a complex term of arity 2. Expressed as loves/2 often. \[6]
 - **Queries**
   - e.g.,
     - ?- Length = 8, length(List,Length).  % Generate a list whose length is 8 using the predicate `length` and a variable `Length`.
